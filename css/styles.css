@@ -168,8 +168,12 @@ body {
 }
 
 .icon-smartphone {
-  fill: var(--accent-color);
+  fill: var(--primary-text-color);
   margin-right: 10px;
+}
+
+.auth-nav-link:hover .icon-smartphone {
+  fill: var(--accent-color);
 }
 
 .auth-nav-item:not(:last-child) {
@@ -185,6 +189,8 @@ body {
 
 .hero {
   background-color: #2f303a;
+  background-image: url(../images/bg.jpg);
+  background-size: contain;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -228,6 +234,17 @@ body {
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+
+.icon-antenna {
+  display: block;
+  height: 70px;
+  fill: tomato;
+  outline: 2px solid teal;
+}
+
+.icon-antenna:hover {
+  fill: turquoise;
 }
 
 .features {
