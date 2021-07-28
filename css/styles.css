@@ -189,11 +189,17 @@ body {
 
 .hero {
   background-color: #2f303a;
-  background-image: url(../images/bg.jpg);
-  background-size: contain;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/bg.jpg);
 }
 
 .hero-title {
@@ -236,19 +242,18 @@ body {
   margin: -1px;
 }
 
-.icon-antenna {
-  display: block;
-  height: 70px;
-  fill: tomato;
-  outline: 2px solid teal;
-}
-
-.icon-antenna:hover {
-  fill: turquoise;
-}
-
 .features {
   display: flex;
+  margin: 0;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
 }
 
 .features-item:not(:last-child) {
@@ -264,6 +269,7 @@ body {
   font-size: 16px;
   line-height: 1.2;
   cursor: pointer;
+  margin-top: 30px;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
