@@ -188,18 +188,17 @@ body {
 /* hero */
 
 .hero {
+  display: block;
   background-color: #2f303a;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-}
-
-.overlay {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(../images/bg.jpg);
 }
 
 .hero-title {
@@ -326,6 +325,7 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .team-text {
@@ -333,6 +333,27 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 16px;
+}
+
+.social-link {
+  text-align: center;
+  fill: #afb1b8;
+  padding: 12px;
+  outline: 2px solid tomato;
+}
+
+.wrapper {
+  padding: 12px;
+}
+
+.social-link .wrapper:hover {
+  fill: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.wrapper:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* footer */
