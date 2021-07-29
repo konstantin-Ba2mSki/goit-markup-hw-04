@@ -275,6 +275,10 @@ body {
 
 /* section2 */
 
+.floor {
+  background-color: var(--bg-color);
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -336,24 +340,23 @@ body {
   margin-bottom: 16px;
 }
 
-.social-link {
+.social {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  fill: #afb1b8;
-  padding: 12px;
-  outline: 2px solid tomato;
 }
 
-.wrapper {
+.social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
   padding: 12px;
+  fill: var(--primary-text-color);
 }
 
-.social-link .wrapper:hover {
+.social-link:hover {
   fill: #ffffff;
   background-color: var(--accent-color);
-}
-
-.wrapper:not(:last-child) {
-  margin-right: 10px;
 }
 
 /* footer */
