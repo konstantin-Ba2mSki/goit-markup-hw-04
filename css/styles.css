@@ -358,9 +358,8 @@ body {
   fill: var(--primary-text-color);
 }
 
-.social-link:hover {
-  fill: #ffffff;
-  background-color: var(--accent-color);
+.pages:hover {
+  fill: var(--accent-color);
 }
 
 /* clients */
@@ -377,11 +376,6 @@ body {
   height: 92px;
   padding: 16px 32px;
   fill: #afb1b8;
-}
-
-.pages:hover {
-  fill: var(--accent-color);
-  background-color: #ffffff;
 }
 
 .clients-item:not(:last-child) {
