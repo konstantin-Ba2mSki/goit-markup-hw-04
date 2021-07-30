@@ -314,6 +314,7 @@ body {
 }
 
 .team {
+  margin: 0;
   display: flex;
 }
 
