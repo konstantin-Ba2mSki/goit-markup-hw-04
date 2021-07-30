@@ -346,6 +346,10 @@ body {
   text-align: center;
 }
 
+.icons:not(:last-child) {
+  margin-right: 10px;
+}
+
 .social-link {
   width: 44px;
   height: 44px;
@@ -357,6 +361,31 @@ body {
 .social-link:hover {
   fill: #ffffff;
   background-color: var(--accent-color);
+}
+
+/* clients */
+
+.clients {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+.more {
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  fill: #afb1b8;
+}
+
+.pages:hover {
+  fill: var(--accent-color);
+  background-color: #ffffff;
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* footer */
@@ -415,6 +444,12 @@ body {
 .contact-item .link:hover,
 .contact-item .link:focus {
   color: var(--accent-color);
+}
+
+.footer-social {
+  display: flex;
+  margin-top: 72px;
+  margin-right: 70px;
 }
 
 /* Portfolio */
