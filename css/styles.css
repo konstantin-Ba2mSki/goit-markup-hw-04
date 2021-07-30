@@ -376,6 +376,7 @@ body {
   height: 92px;
   padding: 16px 32px;
   fill: #afb1b8;
+  border: 1px solid #afb1b8;
 }
 
 .clients-item:not(:last-child) {
@@ -441,9 +442,7 @@ body {
 }
 
 .footer-social {
-  display: flex;
-  margin-top: 72px;
-  margin-right: 70px;
+  display: inline-flex;
 }
 
 /* Portfolio */
