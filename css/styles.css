@@ -423,6 +423,7 @@ body {
   margin-bottom: 20px;
 }
 .contacts {
+  display: inline-block;
   margin: 0;
 }
 
@@ -448,23 +449,23 @@ body {
   color: var(--accent-color);
 }
 
+.social-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .follow {
-  display: block;
   line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;
   font-style: normal;
 }
 
-.social-footer {
-  margin: 0;
-}
-
 .footer-item {
   display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 0;
+  margin-top: 20px;
 }
 
 .icons:not(:last-child) {
