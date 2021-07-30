@@ -290,6 +290,7 @@ body {
 .team-box {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #ffffff;
 }
 
 .work-title {
@@ -358,8 +359,9 @@ body {
   fill: var(--primary-text-color);
 }
 
-.pages:hover {
-  fill: var(--accent-color);
+.social-link:hover {
+  background-color: var(--accent-color);
+  fill: #ffffff;
 }
 
 /* clients */
@@ -377,6 +379,11 @@ body {
   padding: 16px 32px;
   fill: #afb1b8;
   border: 1px solid #afb1b8;
+}
+
+.more:hover {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .clients-item:not(:last-child) {
@@ -441,8 +448,27 @@ body {
   color: var(--accent-color);
 }
 
-.footer-social {
-  display: inline-flex;
+.follow {
+  display: block;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.social-footer {
+  margin: 0;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.icons:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* Portfolio */
