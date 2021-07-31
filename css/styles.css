@@ -341,10 +341,9 @@ body {
   margin-bottom: 16px;
 }
 
-.social-footer {
+.social {
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 
 .icons:not(:last-child) {
@@ -393,7 +392,6 @@ body {
 /* footer */
 
 .footer {
-  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -522,14 +520,6 @@ body {
   margin-top: 30px;
   margin-left: 30px;
   list-style: none;
-}
-
-.gallery-item:hover,
-.gallery-item:focus {
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-content {
