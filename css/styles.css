@@ -452,8 +452,11 @@ body {
   display: flex;
 }
 
-.follow {
+.social-footer {
   display: flex;
+}
+
+.follow {
   line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;
