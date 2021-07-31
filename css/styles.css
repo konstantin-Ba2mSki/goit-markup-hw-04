@@ -342,7 +342,9 @@ body {
 }
 
 .social-footer {
-  justify-content: baseline;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .icons:not(:last-child) {
