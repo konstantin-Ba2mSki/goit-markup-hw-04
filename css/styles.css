@@ -448,6 +448,10 @@ body {
   color: var(--accent-color);
 }
 
+.footer {
+  display: flex;
+}
+
 .follow {
   line-height: 1.14;
   text-transform: uppercase;
