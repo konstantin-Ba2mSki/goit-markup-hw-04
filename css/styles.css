@@ -453,6 +453,7 @@ body {
 }
 
 .follow {
+  display: flex;
   line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;
