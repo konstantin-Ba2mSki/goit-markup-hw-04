@@ -449,11 +449,11 @@ body {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .social-footer {
-  display: flex;
-  align-items: center;
+  margin-left: 70px;
 }
 
 .follow {
