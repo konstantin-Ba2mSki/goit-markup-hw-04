@@ -422,7 +422,6 @@ body {
   margin-bottom: 20px;
 }
 .contacts {
-  display: inline-block;
   margin: 0;
 }
 
@@ -450,16 +449,11 @@ body {
 
 .footer-container {
   display: flex;
-  justify-content: baseline;
-  align-items: center;
 }
 
 .social-footer {
   display: flex;
-}
-
-.social-icon {
-  display: flex;
+  align-items: center;
 }
 
 .follow {
