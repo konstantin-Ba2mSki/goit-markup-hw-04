@@ -469,6 +469,10 @@ body {
   margin-top: 20px;
 }
 
+.logos:not(:last-child) {
+  margin-right: 10px;
+}
+
 .icons:not(:last-child) {
   margin-right: 10px;
 }
@@ -479,6 +483,7 @@ body {
   border-radius: 50px;
   padding: 12px;
   fill: var(--primary-text-color);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .social-icon:hover {
