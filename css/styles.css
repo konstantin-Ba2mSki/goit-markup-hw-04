@@ -252,6 +252,7 @@ body {
   width: 270px;
   height: 120px;
   padding: 25px 100px;
+  border-radius: 4px;
 }
 
 .features-item:not(:last-child) {
@@ -378,6 +379,7 @@ body {
   padding: 16px 32px;
   fill: #afb1b8;
   border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .more:hover {
