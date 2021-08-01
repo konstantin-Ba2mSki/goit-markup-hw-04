@@ -448,11 +448,16 @@ body {
   color: var(--accent-color);
 }
 
-.footer {
+.social-footer {
+  display: flex;
+  justify-content: baseline;
+}
+
+.logos {
   display: flex;
 }
 
-.social-footer {
+.social-icon {
   display: flex;
 }
 
