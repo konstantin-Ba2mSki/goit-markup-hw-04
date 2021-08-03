@@ -19,6 +19,7 @@ p {
 }
 
 ul {
+  margin: 0;
   padding: 0;
   list-style: none;
 }
@@ -107,7 +108,6 @@ body {
 .site-nav {
   padding-left: 0;
   display: flex;
-  list-style: none;
 }
 
 .site-nav-item {
@@ -158,21 +158,13 @@ body {
   display: inline-block;
 }
 
-.icon-envelope {
+.auth-nav-icon {
   fill: var(--primary-text-color);
   margin-right: 10px;
 }
 
-.auth-nav-link:hover .icon-envelope {
-  fill: var(--accent-color);
-}
-
-.icon-smartphone {
-  fill: var(--primary-text-color);
-  margin-right: 10px;
-}
-
-.auth-nav-link:hover .icon-smartphone {
+.auth-nav-link:hover .auth-nav-icon,
+.auth-nav-link:focus .auth-nav-icon {
   fill: var(--accent-color);
 }
 
@@ -188,7 +180,9 @@ body {
 /* hero */
 
 .hero {
-  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   background-color: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/bg.jpg');
@@ -245,13 +239,12 @@ body {
   margin: 0;
 }
 
-.icon {
+.features-box {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #f5f4fa;
-  width: 270px;
-  height: 120px;
-  padding: 25px 100px;
+  padding: 25px 0;
   border-radius: 4px;
 }
 
@@ -267,7 +260,6 @@ body {
   color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.2;
-  cursor: pointer;
   margin-top: 30px;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -352,14 +344,14 @@ body {
 }
 
 .social-link {
-  width: 44px;
-  height: 44px;
+  display: flex;
   border-radius: 50px;
   padding: 12px;
-  fill: var(--primary-text-color);
+  fill: #afb1b8;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--accent-color);
   fill: #ffffff;
 }
@@ -370,19 +362,17 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: 0;
 }
 
 .more {
-  width: 170px;
-  height: 92px;
   padding: 16px 32px;
   fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 
-.more:hover {
+.more:hover,
+.more:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -484,7 +474,7 @@ body {
   height: 44px;
   border-radius: 50px;
   padding: 12px;
-  fill: var(--primary-text-color);
+  fill: #ffffff;
   background: rgba(255, 255, 255, 0.1);
 }
 
