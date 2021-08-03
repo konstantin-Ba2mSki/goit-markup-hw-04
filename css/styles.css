@@ -478,7 +478,8 @@ body {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.social-icon:hover {
+.social-icon:hover,
+.social-icon:focus {
   background-color: var(--accent-color);
   fill: #ffffff;
 }
